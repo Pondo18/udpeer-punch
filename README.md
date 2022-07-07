@@ -35,6 +35,7 @@ It provides a simple CLI UDP messaging application written in go.
 # Build a executable for local architecture 
 go build 
 ```
+[Build a GO executable for different architectures](https://www.digitalocean.com/community/tutorials/how-to-build-go-executables-for-multiple-platforms-on-ubuntu-16-04)
 
 ### Usage
 

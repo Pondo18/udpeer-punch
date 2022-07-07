@@ -54,3 +54,6 @@ Client 2:
 ```
 
 ## Credits & Collaborators
+
+- [Dennis Hug](https://github.com/hugson-d)
+- [Moritz Moser](https://github.com/Pondo18)

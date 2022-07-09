@@ -11,10 +11,10 @@ import (
 
 // Client --
 func Client() {
-	register()
+	registerClient()
 }
 
-func register() {
+func registerClient() {
 	signalAddress := os.Args[2]
 
 	localAddress := ":50001" // default port
@@ -34,10 +34,10 @@ func register() {
 		fmt.Println(bytesWritten, " bytes written")
 	}()
 
-	listen(conn, local.String())
+	listenToClient(conn, local.String())
 }
 
-func listen(conn *net.UDPConn, local string) {
+func listenToClient(conn *net.UDPConn, local string) {
 	for {
 		fmt.Println("listening")
 		buffer := make([]byte, 1024)

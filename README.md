@@ -54,7 +54,14 @@ Client 2:
 ./udpeerPunch c <ip_of_server>:<port_of_server>
 ```
 
-## Credits & Collaborators
+***
 
+## Credits & Authors
+
+### Credits
+
+The code was inspired by a [demo from toddw](https://github.com/toddw/go-udp-holepunch)
+
+### Authors 
 - [Dennis Hug](https://github.com/hugson-d)
 - [Moritz Moser](https://github.com/Pondo18)
